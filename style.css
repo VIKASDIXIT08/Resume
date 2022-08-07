@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    font-size: 20px;
+    background-color: rgb(184, 179, 179);
+    width:15vw;
+}
+.main{
+    font-size: 35px;
+    
+    width: 85vw;
+    background-color: aqua;
+}
+.container{
+    height: 100vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+display: flex;}
+.sidebar nav{
+    padding: 35px;
+}
+.sidebar nav li{
+    padding-top: 33px ;
+    padding-bottom: 0px ;
+    list-style: none ;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.info{
+    display: flex;
+    margin: auto;
+    margin-top: 45px;
+    background-color: rgb(18, 147, 233);
+    height: 35vw;
+    width: 79vw;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+justify-content: center;
+  flex-direction: column;
+}
+.hello{
+    font-family:cursive;
+
+
+}
+.name{
+font-weight: bold;
+}
+.about{
+font-family:cursive;
+}
+.moreabout{
+    font-family:cursive; 
+}
+.buttons{
+  margin-left: 35px;
+ margin-top: 34px;
+}
+.buttons button{
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(241, 229, 62);
+border-radius: 15px;}
+.buttons button:hover{
+     
+    background-color: rgb(250, 235, 235);
+}
+.contactform h1{
+    padding-bottom: 15px;
+    text-align: center;
+ font-family: cursive;
+}
+.contactform {
+    
+    padding-top: 29px;
+    padding-left: 15px;
+ font-family: 'Times New Roman', Times, serif;
+}
+.buttons button a{
+    text-decoration: none;
+}
+.blogcontainer{
+    margin: 15px;
+ font-family: cursive;
+}
+.blogitems {
+    font-family: cursive;
+margin: 25px;
+   
+}
+.blogitems p{
+    font-family: 'source Code Pro',monospace;
+}
+.intro h3{
+    font-weight: bolder;
+    font-family: cursive;
+}
+.intro h4{
+    font-weight: lighter;
+    
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.mrg{
+    margin: 25px;
+    
+}
+.serv{
+    margin-left: 45px;
+}
